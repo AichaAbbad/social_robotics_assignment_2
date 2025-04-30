@@ -1,0 +1,16 @@
+topic: ~dinner()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+u: (Yes) $onStopped=1 \pau=1000\ Okey, dinner time is from 7 pm to 9 pm. 
+u: (I want to book for 7pm) $onStopped=1 \pau=1000\ Sorry, there are no tables free at 7 pm, but there are free tables at 8 pm and 9 pm, which one is more suitable for you?
+u: (Could you book for 8pm) $onStopped=1 \pau=1000\ Okey your reservation for dinner at 8 pm is confirmed, your reservation number is D8
+u: (Thank you) $onStopped=1 \pau=1000\ See you bye bye

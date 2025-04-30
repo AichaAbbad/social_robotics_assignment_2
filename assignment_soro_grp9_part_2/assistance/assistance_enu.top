@@ -1,0 +1,13 @@
+topic: ~assistance()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+u:(Hello, I want to make a reservation) $onStopped=1 \pau = 1000\ Do you want to make a reservation for lunch or dinner?
