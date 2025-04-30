@@ -1,6 +1,6 @@
 # Social Robotics Assignment 2
 
-This repository contains the deliverables for **Assignment 2** of the *Social Robotics* course. The project involves designing and implementing interactive scenarios for the Pepper robot using **Choregraphe**, a visual programming environment developed by SoftBank Robotics.
+This repository contains the deliverables for **Assignment 2** of the *Social Robotics* course. The project involves designing and implementing interactive scenarios (Waiter in a restaurant) for the Pepper robot using **Choregraphe**.
 
 ## 📁 Repository Structure
 
